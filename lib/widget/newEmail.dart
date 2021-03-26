@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:login_minimalist/pages/login.page.dart';
 class NewEmail extends StatefulWidget {
   @override
   _NewEmailState createState() => _NewEmailState();
@@ -13,7 +13,7 @@ class _NewEmailState extends State<NewEmail> {
       child: Container(
         height: 60,
         width: MediaQuery.of(context).size.width,
-        child: TextField(
+        child: TextFormField(
           style: TextStyle(
             color: Colors.white,
           ),
