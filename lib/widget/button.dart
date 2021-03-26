@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_minimalist/pages/loginsuccessful.page.dart';
 
 class ButtonLogin extends StatefulWidget {
   @override
@@ -29,8 +30,12 @@ class _ButtonLoginState extends State<ButtonLogin> {
           color: Colors.white,
           borderRadius: BorderRadius.circular(30),
         ),
-        child: FlatButton(
-          onPressed: () {},
+        child: TextButton(
+          onPressed: () {
+              Navigator.push(context,
+                MaterialPageRoute(builder: (context) => LoginSuccessfulPage()),
+                            );
+                       },
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
@@ -47,6 +52,7 @@ class _ButtonLoginState extends State<ButtonLogin> {
                 color: Colors.lightBlueAccent,
               ),
             ],
+
           ),
         ),
       ),

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class TextNew extends StatefulWidget {
+class TextLoginSuccess extends StatefulWidget {
   @override
-  _TextNewState createState() => _TextNewState();
+  _TextLoginSuccessState createState() => _TextLoginSuccessState();
 }
 
-class _TextNewState extends State<TextNew> {
+class _TextLoginSuccessState extends State<TextLoginSuccess> {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -21,10 +21,11 @@ class _TextNewState extends State<TextNew> {
             ),
             Center(
               child: Text(
-                'Financial Advice ?! NOO ',
+                'Login Success',
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 35,
                   color: Colors.white,
+
                 ),
               ),
             ),

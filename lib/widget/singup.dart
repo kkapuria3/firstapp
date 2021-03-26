@@ -13,7 +13,7 @@ class _SingUpState extends State<SingUp> {
       child: RotatedBox(
           quarterTurns: -1,
           child: Text(
-            'Sing up',
+            'Stonks View',
             style: TextStyle(
               color: Colors.white,
               fontSize: 38,
